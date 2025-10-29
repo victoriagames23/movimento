@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Evita barras de rolagem ao mover a imagem */
+    background-color: #f0f0f0;
+}
+
+#minhaImagem {
+    /* Define a posição que pode ser controlada por 'top' e 'left' */
+    position: absolute;
+    top: 50px; /* Posição inicial Y */
+    left: 50px; /* Posição inicial X */
+    width: 100px; /* Defina o tamanho da imagem */
+    height: 100px;
+    /* Dica: Adicionar uma transição CSS pode suavizar o movimento se o seu JS for lento */
+    /* transition: all 0.03s linear; */
+}
